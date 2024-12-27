@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('gift-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+        }
+
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .section h2 {
+            margin-bottom: 1rem;
+        }
+
+        .section p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin: 1rem 0 0.5rem;
+        }
+
+        .card p {
+            color: #666;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        .contact {
+            margin-top: 1rem;
+        }
+
+        .contact a {
+            color: #ffa500;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gifts Conner</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Wrapped Smiles for Your Loved Ones</h2>
+    </div>
+
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>We are the best gift shop in Nairobi, Kenya. We offer customizable cards and beautifully wrapped gifts that bring joy to your loved ones.</p>
+    </section>
+
+    <section class="section" id="products">
+        <h2>Our Products</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="gift1.jpg" alt="Gift Box">
+                <h3>Custom Gift Boxes</h3>
+                <p>Beautifully wrapped gift boxes for every occasion.</p>
+            </div>
+            <div class="card">
+                <img src="card.jpg" alt="Customizable Card">
+                <h3>Customizable Cards</h3>
+                <p>Personalized cards for birthdays, anniversaries, and more.</p>
+            </div>
+            <div class="card">
+                <img src="hamper.jpg" alt="Gift Hamper">
+                <h3>Gift Hampers</h3>
+                <p>Thoughtfully curated gift hampers for your loved ones.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Nairobi, Kenya</p>
+        <p>📞 WhatsApp: <a href="https://wa.me/0716009339">0716009339</a></p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Gifts Conner. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
